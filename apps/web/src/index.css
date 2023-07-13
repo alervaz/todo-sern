@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-size: max(0.3rem + 0.5vw, 0.4rem);
+}
+
+body {
+    height: 100dvh;
+    width: 100dvw;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+
+
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+
+body::-webkit-scrollbar-thumb {
+    background-color: hotpink;
+}

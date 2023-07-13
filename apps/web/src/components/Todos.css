@@ -1,0 +1,23 @@
+.responsive-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-rows: 15rem;
+}
+
+
+.main::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+
+
+.main::-webkit-scrollbar-thumb {
+    background-color: hotpink;
+}
+
+.main {
+    width: 100%;
+}
+
+

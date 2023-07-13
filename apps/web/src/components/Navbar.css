@@ -1,0 +1,43 @@
+
+.nav {
+    width: 30%;
+}
+
+@media (max-width: 40em) {
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 0;
+        transition: all 0.3s;
+    }
+
+    .nav * {
+        visibility: hidden;
+    }
+
+    .show {
+        width: 60vw;
+        background-color: white;
+    }
+
+    .show * {
+        visibility: visible;
+    }
+}
+
+.scrollable::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+
+
+.scrollable::-webkit-scrollbar-track {
+    background: white;
+}
+
+
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: hotpink;
+}
